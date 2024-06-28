@@ -51,7 +51,7 @@ if (transmissionType == TransmissionType.MANUAL) {
 else {
     T = 1;
 }
-double FE_Car = (C * Math.pow(D, 2.5))/(Math.pow(W, 0.6)* T)* 100;
+double FE_Car = (C * Math.pow(D, 2.5))/(Math.pow(W, 0.6)* T)* 1000;
 return FE_Car;
 }
 @Override
