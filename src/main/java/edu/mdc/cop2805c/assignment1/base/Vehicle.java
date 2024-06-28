@@ -10,6 +10,7 @@ public abstract class Vehicle
     public abstract String getVehicleType();
 
     public abstract String getVehicleSubType();
+    
 
     public abstract String getDescription();
 
@@ -18,24 +19,33 @@ public abstract class Vehicle
         return getVehicleType() + "," + getVehicleSubType() + "," + VIN + "," + make + "," + model + "," + year + ",";
     }
 
-    public Object getType() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String getMake() {
+        return make;
     }
 
-    public String getMake() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void setMake(String make) {
+        this.make = make;
     }
 
     public String getModel() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return model;
     }
 
-    public String getYear() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void setModel(String model) {
+        this.model = model;
     }
 
-    public String getMiles() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+
+
+    public int getYear() {
+        return year;
     }
-    
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getVIN() {
+        return VIN;
+    }
 }
