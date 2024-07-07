@@ -1,3 +1,5 @@
 Car,Electric,D2WFPVCXA4FKQSZ1,Tesla,Model S,2024,0.4
 Car,Electric,D2WFPVCXA4FKQSZ1,Tesla,Model S,2024,0.4
 Car,Electric,D2WFPVCXA4FKQSZ1,Tesla,Model S,2024,0.4
+Car,Electric,D2WFPVCXA4FKQSZ1,Tesla,Model S,2024,0.4
+Car,Electric,D2WFPVCXA4FKQSZ1,Tesla,Model S,2024,0.4
